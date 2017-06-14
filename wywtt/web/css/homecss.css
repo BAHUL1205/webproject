@@ -1,0 +1,291 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Feb, 2017, 1:47:46 PM
+    Author     : bahul
+*/
+
+body { 
+  background: url(../images/finaling.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 180%;
+    color:#5c6bc0;
+    -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: #212121;
+    line-height:120%;
+    padding:5% 0;
+}
+h2{
+    text-decoration: underline;
+    line-height: 280%;
+    padding-left: 2%;
+}
+h3{
+    line-height:100%;
+    padding:5%0;
+    color: #ffffff; font-family: 'Lato', sans-serif; 
+    font-size: 54px; 
+    font-weight: 300; 
+    line-height: 58px; 
+    margin: 0 0 58px;
+}
+h4{
+    text-align: center;
+    font-style: italic;
+   
+    color: #adb7bd;
+    font-family: 'Lucida Sans', Arial, sans-serif; 
+    font-size: 16px; 
+    line-height: 26px;  
+    text-indent: 30px; 
+    margin: 0;
+}
+p{
+    padding:1%;
+}
+.images{
+    filter: #9e2b25; /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+    text-align: center; 
+}
+.images:hover{
+     filter: none;
+  -webkit-filter: grayscale(0%);
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;  
+}
+
+ a:hover{
+    color:#FFF;
+    background-color: #ff0111;  
+ 
+    
+}
+header{
+  background: linear-gradient( to right ,#424242 , #424242 );
+  width:100%;
+  height:100px;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:100;
+  opacity:0.85;
+}
+#logo{
+    margin:20px;
+    float:left;
+    width: 200px;
+    height:84px;
+    background: url(../images/ICON.png) no-repeat center;
+    background-size: 100% 195%;
+}
+nav{
+    float:right;
+    padding:35px 20px 20px 0px;
+}
+#menu_icon{
+    display: hidden;
+    width: 40px;
+    height:40px;
+    background: url(../images/drop-down-list.png);
+    
+}
+a:hover#menu_icon{
+    border-radius: 4px 4px 0px 0px;  
+}
+ul{
+        list-style: none;
+    }
+    nav ul li{
+        display:inline-block;
+        float:right;
+        padding:10px;
+        
+    }
+    ul li{
+        display:inline-block;
+        padding:10px;   
+    }
+    .current{
+        text-decoration: underline;   
+         } 
+.slides {
+ margin-top: 130px;
+width: 100%;
+height: 480px;
+position: relative;
+opacity: 0.80;
+}
+.slides ul {
+margin: 0;
+padding: 0;
+list-style: none;
+position: absolute;
+width: 500%;
+height: 100%;
+top: 0;
+}
+.slides li {   
+padding: 0;
+margin: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+position: absolute;
+top: 0;
+bottom: 0;
+}
+.slides li img {
+border: none;
+width: 100%;
+height: 100%;
+}
+ .slides button {    
+position: absolute;
+display: block;
+box-sizing: border-box;
+border: none;
+outline: none;
+top: 0;
+bottom: 0;
+width: 15%;
+background-color: rgba(0, 0, 0, 0.3);
+color: #fff;
+margin: 0;
+padding: 1px;
+text-align:center;
+opacity: 0;
+z-index: 1;
+}
+.slides button.prev {
+left: 0;
+}
+.slides button.next {
+right: 0;
+}
+.slides button:hover, .slider button:active {
+opacity: 1.0;
+} 
+.left{
+margin-top: 100px;
+width: 100%;
+height: 280px;
+position: relative;
+margin-bottom: 120px;
+margin-left: 1px;
+}
+.left ul{
+margin: 0;
+padding: 0;
+list-style: none;
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+}
+
+.left  li{
+display: inline-block;
+padding: 0;
+float:left;
+margin: 0;
+width: 33.33%;
+height: 100%;
+overflow: hidden;
+top: 0;
+bottom: 0;
+}
+.left li img {  
+        height:100%;
+        width: 100%
+}
+article{
+    float:left;
+    margin:0 auto;
+    width: 50%;
+    height:auto;
+    padding:4%;
+}
+aside{
+    float:right;
+    margin:0 auto;
+    width : 35%;
+    height:auto;
+    padding:3%
+}
+aside :hover ul li {
+    text-decoration: underline;
+}
+ul.gym il
+{   
+    padding-left:3%;
+}
+footer{
+    background: #333333;
+    width:100%;
+    overflow:hidden;
+    opacity:0.85; 
+}
+
+section{
+    width:29%;
+    float:left;
+    margin : 2% 2%;
+    text-align: center;
+}
+footer p, footer h3 ,footer h4{
+    color:#fff;    
+}
+footer p a{
+    color: #fff;
+    text-decoration: none;
+        }
+footer.second{
+    border: 1px solid #4d4e50;
+    background-color: #333333;
+    max-height: 50px;
+    text-align: center;
+    opacity: 0.98;
+    text-decoration: none;
+      }
+.round-button {
+	width:75%;
+}
+.round-button-circle {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #cfdcec;
+    overflow:hidden;
+    opacity:0.90;
+    background: rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 0 3px gray;
+}
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
